@@ -1,0 +1,38 @@
+[0.284s] Invoking command in '/home/yjfy/桌面/workspace/demo_python_pkg': PYTHONPATH=/home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/demo_python_pkg build --build-base /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build install --record /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.403s] running egg_info
+[0.404s] creating build/demo_python_pkg/demo_python_pkg.egg-info
+[0.404s] writing build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.404s] writing dependency_links to build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.404s] writing entry points to build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.404s] writing requirements to build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.404s] writing top-level names to build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.404s] writing manifest file 'build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.405s] reading manifest file 'build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.405s] adding license file 'LICENSE'
+[0.405s] writing manifest file 'build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.405s] running build
+[0.405s] running build_py
+[0.405s] creating /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build
+[0.405s] creating /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build/lib
+[0.405s] creating /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.405s] copying demo_python_pkg/__init__.py -> /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.406s] copying demo_python_pkg/python_node.py -> /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.406s] running install
+[0.406s] running install_lib
+[0.406s] creating /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.406s] copying /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.406s] copying /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.406s] byte-compiling /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py to __init__.cpython-310.pyc
+[0.406s] byte-compiling /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py to python_node.cpython-310.pyc
+[0.407s] running install_data
+[0.407s] creating /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/share/ament_index
+[0.407s] creating /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/share/ament_index/resource_index
+[0.407s] creating /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.407s] copying resource/demo_python_pkg -> /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.407s] copying package.xml -> /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/share/demo_python_pkg
+[0.407s] running install_egg_info
+[0.408s] Copying build/demo_python_pkg/demo_python_pkg.egg-info to /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.408s] running install_scripts
+[0.421s] Installing python_node script to /home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/demo_python_pkg
+[0.421s] writing list of installed files to '/home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/install.log'
+[0.435s] Invoked command in '/home/yjfy/桌面/workspace/demo_python_pkg' returned '0': PYTHONPATH=/home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yjfy/桌面/workspace/demo_python_pkg/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/demo_python_pkg build --build-base /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/build install --record /home/yjfy/桌面/workspace/demo_python_pkg/build/demo_python_pkg/install.log --single-version-externally-managed install_data
