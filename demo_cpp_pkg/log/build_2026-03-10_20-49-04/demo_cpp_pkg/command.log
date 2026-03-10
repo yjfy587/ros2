@@ -1,0 +1,6 @@
+Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg
+Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg
+Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg
+Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg

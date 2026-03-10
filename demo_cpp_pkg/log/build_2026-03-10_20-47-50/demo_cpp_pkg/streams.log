@@ -1,0 +1,7 @@
+[0.007s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg
+[0.010s] [31mCMake Error at CMakeLists.txt:19:
+[0.010s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.010s] 
+[0.010s] [0m
+[0.010s] -- Configuring incomplete, errors occurred!
+[0.011s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '1': /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg

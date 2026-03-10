@@ -1,0 +1,62 @@
+[0.007s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.041s] [ 50%] Built target cpp_node
+[0.044s] [ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[1.065s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:7:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.065s]     7 |     string [01;31m[Kname[m[K
+[1.065s]       |            [01;31m[K^~~~[m[K
+[1.065s]       |                [32m[K;[m[K
+[1.065s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:20:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.065s]    20 | }
+[1.065s]       |  [01;31m[K^[m[K
+[1.065s]       |  [32m[K;[m[K
+[1.065s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, int)[m[K’:
+[1.065s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:12:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kname_[m[K’; did you mean ‘[01m[Kname[m[K’?
+[1.065s]    12 |         this->[01;31m[Kname_[m[K=name;
+[1.065s]       |               [01;31m[K^~~~~[m[K
+[1.065s]       |               [32m[Kname[m[K
+[1.065s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kage_[m[K’; did you mean ‘[01m[Kage[m[K’?
+[1.065s]    13 |         this->[01;31m[Kage_[m[K=age;
+[1.065s]       |               [01;31m[K^~~~[m[K
+[1.065s]       |               [32m[Kage[m[K
+[1.068s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.068s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.068s]                  from [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[1.068s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:14:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kname_[m[K’ was not declared in this scope; did you mean ‘[01m[Kname[m[K’?
+[1.068s]    14 |         RCLCPP_INFO(this->get_logger(),"我是%s，今年%d岁了",[01;31m[Kname_[m[K.c_str(),age_)
+[1.068s]       |                                                             [01;31m[K^~~~~[m[K
+[1.070s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:14:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kage_[m[K’ was not declared in this scope; did you mean ‘[01m[Kage[m[K’?
+[1.070s]    14 |         RCLCPP_INFO(this->get_logger(),"我是%s，今年%d岁了",name_.c_str(),[01;31m[Kage_[m[K)
+[1.070s]       |                                                                           [01;31m[K^~~~[m[K
+[1.070s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.070s]    15 |     [01;31m[K}[m[K
+[1.070s]       |     [01;31m[K^[m[K
+[1.072s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.072s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.072s]                  from [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[1.073s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In member function ‘[01m[Kvoid PersonNode::eat(const string&)[m[K’:
+[1.073s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:18:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kname_[m[K’ was not declared in this scope; did you mean ‘[01m[Kname[m[K’?
+[1.073s]    18 |         RCLCPP_INFO(this->get_logger(),"%s正在吃%s",[01;31m[Kname_[m[K.c_str(),food_name.c_str());
+[1.073s]       |                                                     [01;31m[K^~~~~[m[K
+[1.275s] gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+[1.275s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+[1.275s] gmake: *** [Makefile:146：all] 错误 2
+[1.277s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24

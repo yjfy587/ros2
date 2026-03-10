@@ -1,0 +1,107 @@
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg
+[35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[ 75%] Built target cpp_node
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:7:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+    7 |     string [01;31m[Kname[m[K
+      |            [01;31m[K^~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:16:14:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K&[m[K’ token
+   16 |     void eat([01;31m[K&[m[Kstring food_name)
+      |              [01;31m[K^[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:16:22:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kfood_name[m[K’
+   16 |     void eat(&string [01;31m[Kfood_name[m[K)
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:20:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   20 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, int)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:12:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kname_[m[K’; did you mean ‘[01m[Kname[m[K’?
+   12 |         this->[01;31m[Kname_[m[K=name;
+      |               [01;31m[K^~~~~[m[K
+      |               [32m[Kname[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kage_[m[K’; did you mean ‘[01m[Kage[m[K’?
+   13 |         this->[01;31m[Kage_[m[K=age;
+      |               [01;31m[K^~~~[m[K
+      |               [32m[Kage[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:14:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kname_[m[K’ was not declared in this scope; did you mean ‘[01m[Kname[m[K’?
+   14 |         RCLCPP_INFO(this->get_logger(),"我是%s，今年%d岁了",[01;31m[Kname_[m[K.c_str(),age_)
+      |                                                             [01;31m[K^~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:14:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kage_[m[K’ was not declared in this scope; did you mean ‘[01m[Kage[m[K’?
+   14 |         RCLCPP_INFO(this->get_logger(),"我是%s，今年%d岁了",name_.c_str(),[01;31m[Kage_[m[K)
+      |                                                                           [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   15 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In member function ‘[01m[Kvoid PersonNode::eat(int&)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:18:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kname_[m[K’ was not declared in this scope; did you mean ‘[01m[Kname[m[K’?
+   18 |         RCLCPP_INFO(this->get_logger(),"%s正在吃%s",[01;31m[Kname_[m[K.c_str(),food_name.c_str());
+      |                                                     [01;31m[K^~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:18:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kfood_name[m[K’ was not declared in this scope
+   18 |         RCLCPP_INFO(this->get_logger(),"%s正在吃%s",name_.c_str(),[01;31m[Kfood_name[m[K.c_str());
+      |                                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:16:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstring[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   16 |     void eat([01;35m[K&string[m[K food_name)
+      |              [01;35m[K~^~~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:25:15:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 |     node->eat([01;31m[K"面包"[m[K);
+      |               [01;31m[K^~~~~~[m[K
+      |               [01;31m[K|[m[K
+      |               [01;31m[Kconst char*[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:16:15:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid PersonNode::eat(int&)[m[K’
+   16 |     void eat([01;36m[K&string[m[K food_name)
+      |              [01;36m[K~^~~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:25:15:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue ‘[01m[K(int)((const char*)"\37777777751\37777777635\37777777642\37777777745\37777777614\37777777605")[m[K’ to ‘[01m[Kint&[m[K’
+   25 |     node->eat([01;31m[K"面包"[m[K);
+      |               [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

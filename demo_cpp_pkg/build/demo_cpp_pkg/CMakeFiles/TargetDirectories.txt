@@ -1,0 +1,11 @@
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/uninstall.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/demo_cpp_pkg_uninstall.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/cpp_node.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/person_node.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/test.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/install.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/install/local.dir
+/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/install/strip.dir

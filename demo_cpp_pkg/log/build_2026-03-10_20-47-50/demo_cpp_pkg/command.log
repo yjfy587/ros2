@@ -1,0 +1,2 @@
+Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg
+Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '1': /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg
