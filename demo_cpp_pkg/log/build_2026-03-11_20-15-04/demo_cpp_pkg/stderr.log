@@ -1,0 +1,79 @@
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/learn_function.cpp:[m[K In function ‘[01m[Kvoid save_with_free_fun(const string&)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/learn_function.cpp:6:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kfilename[m[K’?
+    6 |     cout<<"调用了自由函数"<<[01;31m[Kfile_name[m[K<<endl;
+      |                             [01;31m[K^~~~~~~~~[m[K
+      |                             [32m[Kfilename[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/learn_function.cpp:4:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfilename[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    4 | void save_with_free_fun([01;35m[Kconst string &filename[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/learn_function.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/learn_function.cpp:23:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kfunction[m[K’
+   23 |     [01;31m[Kfunction[m[K<void(const string &)> save1-save_with_free_fun;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/learn_function.cpp:25:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave_with_member_fun[m[K’ is not a member of ‘[01m[KFileSave[m[K’
+   25 |     function<void(const string &)> save3=bind(&FileSave::[01;31m[Ksave_with_member_fun[m[K,&file_save,placeholders::_1);
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/learn_function.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksave1[m[K’ was not declared in this scope; did you mean ‘[01m[Ksave3[m[K’?
+   26 |     [01;31m[Ksave1[m[K("file1.txt");
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Ksave3[m[K
+gmake[2]: *** [CMakeFiles/learn_function.dir/build.make:76：CMakeFiles/learn_function.dir/src/learn_function.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/learn_function.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:7:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+    7 |     string [01;31m[Kname[m[K
+      |            [01;31m[K^~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:20:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   20 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, int)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:12:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kname_[m[K’; did you mean ‘[01m[Kname[m[K’?
+   12 |         this->[01;31m[Kname_[m[K=name;
+      |               [01;31m[K^~~~~[m[K
+      |               [32m[Kname[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PersonNode[m[K’ has no member named ‘[01m[Kage_[m[K’; did you mean ‘[01m[Kage[m[K’?
+   13 |         this->[01;31m[Kage_[m[K=age;
+      |               [01;31m[K^~~~[m[K
+      |               [32m[Kage[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:14:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kname_[m[K’ was not declared in this scope; did you mean ‘[01m[Kname[m[K’?
+   14 |         RCLCPP_INFO(this->get_logger(),"我是%s，今年%d岁了",[01;31m[Kname_[m[K.c_str(),age_)
+      |                                                             [01;31m[K^~~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:14:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kage_[m[K’ was not declared in this scope; did you mean ‘[01m[Kage[m[K’?
+   14 |         RCLCPP_INFO(this->get_logger(),"我是%s，今年%d岁了",name_.c_str(),[01;31m[Kage_[m[K)
+      |                                                                           [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   15 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In member function ‘[01m[Kvoid PersonNode::eat(const string&)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:18:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kname_[m[K’ was not declared in this scope; did you mean ‘[01m[Kname[m[K’?
+   18 |         RCLCPP_INFO(this->get_logger(),"%s正在吃%s",[01;31m[Kname_[m[K.c_str(),food_name.c_str());
+      |                                                     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/person_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

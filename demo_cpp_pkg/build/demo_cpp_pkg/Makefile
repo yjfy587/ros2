@@ -223,6 +223,32 @@ person_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
 .PHONY : person_node/fast
 
+#=============================================================================
+# Target rules for targets named learn_function
+
+# Build rule for target.
+learn_function: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_function
+.PHONY : learn_function
+
+# fast build rule for target.
+learn_function/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/build
+.PHONY : learn_function/fast
+
+#=============================================================================
+# Target rules for targets named learn_function1
+
+# Build rule for target.
+learn_function1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 learn_function1
+.PHONY : learn_function1
+
+# fast build rule for target.
+learn_function1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function1.dir/build.make CMakeFiles/learn_function1.dir/build
+.PHONY : learn_function1/fast
+
 src/cpp_node.o: src/cpp_node.cpp.o
 .PHONY : src/cpp_node.o
 
@@ -246,6 +272,54 @@ src/cpp_node.s: src/cpp_node.cpp.s
 src/cpp_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_node.dir/build.make CMakeFiles/cpp_node.dir/src/cpp_node.cpp.s
 .PHONY : src/cpp_node.cpp.s
+
+src/learn_function.o: src/learn_function.cpp.o
+.PHONY : src/learn_function.o
+
+# target to build an object file
+src/learn_function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/src/learn_function.cpp.o
+.PHONY : src/learn_function.cpp.o
+
+src/learn_function.i: src/learn_function.cpp.i
+.PHONY : src/learn_function.i
+
+# target to preprocess a source file
+src/learn_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/src/learn_function.cpp.i
+.PHONY : src/learn_function.cpp.i
+
+src/learn_function.s: src/learn_function.cpp.s
+.PHONY : src/learn_function.s
+
+# target to generate assembly for a file
+src/learn_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/src/learn_function.cpp.s
+.PHONY : src/learn_function.cpp.s
+
+src/learn_function1.o: src/learn_function1.cpp.o
+.PHONY : src/learn_function1.o
+
+# target to build an object file
+src/learn_function1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function1.dir/build.make CMakeFiles/learn_function1.dir/src/learn_function1.cpp.o
+.PHONY : src/learn_function1.cpp.o
+
+src/learn_function1.i: src/learn_function1.cpp.i
+.PHONY : src/learn_function1.i
+
+# target to preprocess a source file
+src/learn_function1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function1.dir/build.make CMakeFiles/learn_function1.dir/src/learn_function1.cpp.i
+.PHONY : src/learn_function1.cpp.i
+
+src/learn_function1.s: src/learn_function1.cpp.s
+.PHONY : src/learn_function1.s
+
+# target to generate assembly for a file
+src/learn_function1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function1.dir/build.make CMakeFiles/learn_function1.dir/src/learn_function1.cpp.s
+.PHONY : src/learn_function1.cpp.s
 
 src/person_node.o: src/person_node.cpp.o
 .PHONY : src/person_node.o
@@ -287,10 +361,18 @@ help:
 	@echo "... demo_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_node"
+	@echo "... learn_function"
+	@echo "... learn_function1"
 	@echo "... person_node"
 	@echo "... src/cpp_node.o"
 	@echo "... src/cpp_node.i"
 	@echo "... src/cpp_node.s"
+	@echo "... src/learn_function.o"
+	@echo "... src/learn_function.i"
+	@echo "... src/learn_function.s"
+	@echo "... src/learn_function1.o"
+	@echo "... src/learn_function1.i"
+	@echo "... src/learn_function1.s"
 	@echo "... src/person_node.o"
 	@echo "... src/person_node.i"
 	@echo "... src/person_node.s"

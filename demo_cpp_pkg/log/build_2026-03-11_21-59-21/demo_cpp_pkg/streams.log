@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target learn_function1[0m
+[0.042s] [ 25%] Built target learn_function
+[0.043s] [ 37%] [32mBuilding CXX object CMakeFiles/learn_function1.dir/src/learn_function1.cpp.o[0m
+[0.044s] [ 62%] Built target cpp_node
+[0.044s] [ 87%] Built target person_node
+[0.330s] [100%] [32m[1mLinking CXX executable learn_function1[0m
+[0.401s] [100%] Built target learn_function1
+[0.411s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+[0.420s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg
+[0.429s] -- Install configuration: ""
+[0.429s] -- Installing: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.429s] -- Set runtime path of "/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[0.429s] -- Installing: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.430s] -- Set runtime path of "/home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[0.430s] -- Installing: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_function
+[0.430s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.430s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.430s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.430s] -- Installing: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.431s] -- Installing: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.431s] -- Installing: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.431s] -- Installing: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.431s] -- Up-to-date: /home/yjfy/桌面/workspace/demo_cpp_pkg/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.433s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg

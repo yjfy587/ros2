@@ -1,0 +1,38 @@
+[0.006s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+[0.020s] [33mCMake Warning (dev) at CMakeLists.txt:17:
+[0.020s]   Syntax Warning in cmake code at column 72
+[0.020s] 
+[0.020s]   Argument not separated from preceding token by whitespace.
+[0.020s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.020s] [0m
+[0.022s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.099s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.113s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.114s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.117s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.128s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.144s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.144s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.220s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.258s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.258s]   add_executable cannot create target "learn_function" because another target
+[0.258s]   with the same name already exists.  The existing target is an executable
+[0.258s]   created in source directory "/home/yjfy/桌面/workspace/demo_cpp_pkg".
+[0.258s]   See documentation for policy CMP0002 for more details.
+[0.258s] 
+[0.258s] [0m
+[0.259s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.307s] -- Configured cppcheck include dirs: /home/yjfy/桌面/workspace/demo_cpp_pkg/include
+[0.307s] -- Configured cppcheck exclude dirs and/or files: 
+[0.308s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.311s] -- Added test 'lint_cmake' to check CMake code style
+[0.312s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.321s] -- Added test 'uncrustify' to check C / C++ code style
+[0.321s] -- Configured uncrustify additional arguments: 
+[0.322s] -- Added test 'xmllint' to check XML markup files
+[0.322s] -- Configuring incomplete, errors occurred!
+[0.322s] See also "/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.326s] gmake: *** [Makefile:349：cmake_check_build_system] 错误 1
+[0.328s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24

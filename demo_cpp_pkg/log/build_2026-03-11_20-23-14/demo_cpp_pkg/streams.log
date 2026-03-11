@@ -1,0 +1,14 @@
+[0.006s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target learn_function[0m
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.043s] [ 33%] Built target cpp_node
+[0.044s] [ 66%] Built target learn_function
+[0.049s] [ 83%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[1.141s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, int)[m[K’:
+[1.141s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.141s]    15 |     [01;31m[K}[m[K;
+[1.141s]       |     [01;31m[K^[m[K
+[1.341s] gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+[1.341s] gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/person_node.dir/all] 错误 2
+[1.341s] gmake: *** [Makefile:146：all] 错误 2
+[1.343s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24

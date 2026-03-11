@@ -1,0 +1,38 @@
+[0.007s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24
+[0.025s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.101s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.127s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.128s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.131s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.164s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.261s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.308s] -- Configured cppcheck include dirs: /home/yjfy/桌面/workspace/demo_cpp_pkg/include
+[0.308s] -- Configured cppcheck exclude dirs and/or files: 
+[0.309s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.311s] -- Added test 'lint_cmake' to check CMake code style
+[0.312s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.321s] -- Added test 'uncrustify' to check C / C++ code style
+[0.321s] -- Configured uncrustify additional arguments: 
+[0.322s] -- Added test 'xmllint' to check XML markup files
+[0.322s] -- Configuring done
+[0.324s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.324s]   Cannot find source file:
+[0.324s] 
+[0.324s]     src/learn_function1cpp
+[0.324s] 
+[0.324s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.324s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.324s] 
+[0.324s] [0m
+[0.324s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.324s]   No SOURCES given to target: learn_function1
+[0.324s] 
+[0.324s] [0m
+[0.324s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.327s] gmake: *** [Makefile:349：cmake_check_build_system] 错误 1
+[0.329s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg -- -j24 -l24

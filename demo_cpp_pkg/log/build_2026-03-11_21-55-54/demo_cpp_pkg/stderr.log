@@ -1,0 +1,14 @@
+[33mCMake Warning (dev) at CMakeLists.txt:17:
+  Syntax Warning in cmake code at column 72
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at CMakeLists.txt:17 (add_executable):
+  add_executable cannot create target "learn_function" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/yjfy/桌面/workspace/demo_cpp_pkg".
+  See documentation for policy CMP0002 for more details.
+
+[0m
+gmake: *** [Makefile:349：cmake_check_build_system] 错误 1

@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000186] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.005859] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.007261] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.007344] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg', '--', '-j24', '-l24'], 'cwd': '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yjfy'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yjfy'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.109.5'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1624'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1799'), ('BUNDLED_DEBUGPY_PATH', '/home/yjfy/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2896'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yjfy'), ('JOURNAL_STREAM', '8:19846'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yjfy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/yjfy/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/yjfy/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yjfy/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/yjfy-TX-Gaming-FX608JMR-FX608JMR:@/tmp/.ICE-unix/1773,unix/yjfy-TX-Gaming-FX608JMR-FX608JMR:/tmp/.ICE-unix/1773'), ('INVOCATION_ID', '289f05d490f9426694d33a008a3f3dae'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/yjfy/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-fabac71686fb15eb.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/yjfy/.config/Code/User/workspaceStorage/c13e4de7ae4276a7d759982b66298d2d/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AB1EM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-15e9c7999e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039253] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099463] (-) TimerEvent: {}
+[0.124821] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.147235] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.149819] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.156424] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.166976] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.176032] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199552] (-) TimerEvent: {}
+[0.211335] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.212500] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.273223] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299614] (-) TimerEvent: {}
+[0.306690] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.353366] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.353485] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.353521] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.354409] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.355590] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.356418] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.360637] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.360703] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.361384] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.362424] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.369677] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.371943] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/build/demo_cpp_pkg\n'}
+[0.388601] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.389273] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target person_node\x1b[0m\n'}
+[0.394154] (demo_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o\x1b[0m\n'}
+[0.399729] (-) TimerEvent: {}
+[0.405491] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target cpp_node\n'}
+[0.406279] (demo_cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[0.499896] (-) TimerEvent: {}
+[0.561829] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:3:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected nested-name-specifier before \xe2\x80\x98\x1b[01m\x1b[Knnamespace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.562106] (demo_cpp_pkg) StderrLine: {'line': b'    3 | using \x1b[01;31m\x1b[Knnamespace\x1b[m\x1b[K std;\n'}
+[0.562145] (demo_cpp_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.562172] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:4:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstdin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.562197] (demo_cpp_pkg) StderrLine: {'line': b'    4 | void save_with_free_fun(const \x1b[01;31m\x1b[Kstring\x1b[m\x1b[K &filename)\n'}
+[0.562221] (demo_cpp_pkg) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.562244] (demo_cpp_pkg) StderrLine: {'line': b'      |                               \x1b[32m\x1b[Kstdin\x1b[m\x1b[K\n'}
+[0.562876] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid save_with_free_fun(const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.562942] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:6:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.562972] (demo_cpp_pkg) StderrLine: {'line': b'    6 |     \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K<<"\xe8\xb0\x83\xe7\x94\xa8\xe4\xba\x86\xe8\x87\xaa\xe7\x94\xb1\xe5\x87\xbd\xe6\x95\xb0"<<file_name<<endl;\n'}
+[0.562997] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.563024] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[0.563155] (demo_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:1\x1b[m\x1b[K:\n'}
+[0.563215] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iostream:61:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.563244] (demo_cpp_pkg) StderrLine: {'line': b'   61 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;          /// Linked to standard output\n'}
+[0.563271] (demo_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.563843] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:6:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfile_name\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfilename\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.564011] (demo_cpp_pkg) StderrLine: {'line': b'    6 |     cout<<"\xe8\xb0\x83\xe7\x94\xa8\xe4\xba\x86\xe8\x87\xaa\xe7\x94\xb1\xe5\x87\xbd\xe6\x95\xb0"<<\x1b[01;31m\x1b[Kfile_name\x1b[m\x1b[K<<endl;\n'}
+[0.564044] (demo_cpp_pkg) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.564072] (demo_cpp_pkg) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kfilename\x1b[m\x1b[K\n'}
+[0.564098] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:6:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kendl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.564125] (demo_cpp_pkg) StderrLine: {'line': b'    6 |     cout<<"\xe8\xb0\x83\xe7\x94\xa8\xe4\xba\x86\xe8\x87\xaa\xe7\x94\xb1\xe5\x87\xbd\xe6\x95\xb0"<<file_name<<\x1b[01;31m\x1b[Kendl\x1b[m\x1b[K;\n'}
+[0.564152] (demo_cpp_pkg) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.564176] (demo_cpp_pkg) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[Kstd::endl\x1b[m\x1b[K\n'}
+[0.564200] (demo_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[0.564223] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:1\x1b[m\x1b[K:\n'}
+[0.564246] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:684:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.564269] (demo_cpp_pkg) StderrLine: {'line': b'  684 |     \x1b[01;36m\x1b[Kendl\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>& __os)\n'}
+[0.564292] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.564465] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:4:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfilename\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.564529] (demo_cpp_pkg) StderrLine: {'line': b'    4 | void save_with_free_fun(\x1b[01;35m\x1b[Kconst string &filename\x1b[m\x1b[K)\n'}
+[0.564582] (demo_cpp_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[0.564608] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:\x1b[m\x1b[K At global scope:\n'}
+[0.564634] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:11:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstdin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.564659] (demo_cpp_pkg) StderrLine: {'line': b'   11 |     void save(const \x1b[01;31m\x1b[Kstring\x1b[m\x1b[K &file_name)\n'}
+[0.564683] (demo_cpp_pkg) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.564730] (demo_cpp_pkg) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kstdin\x1b[m\x1b[K\n'}
+[0.564753] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FileSave::save(const int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.564778] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:13:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.564802] (demo_cpp_pkg) StderrLine: {'line': b'   13 |         \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K<<"\xe8\xb0\x83\xe7\x94\xa8\xe4\xba\x86\xe6\x88\x90\xe5\x91\x98\xe5\x87\xbd\xe6\x95\xb0"<<file_name<<endl;\n'}
+[0.564825] (demo_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.564869] (demo_cpp_pkg) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[0.564891] (demo_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:1\x1b[m\x1b[K:\n'}
+[0.564912] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iostream:61:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.564933] (demo_cpp_pkg) StderrLine: {'line': b'   61 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;          /// Linked to standard output\n'}
+[0.564955] (demo_cpp_pkg) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.564978] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:13:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kendl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.565000] (demo_cpp_pkg) StderrLine: {'line': b'   13 |         cout<<"\xe8\xb0\x83\xe7\x94\xa8\xe4\xba\x86\xe6\x88\x90\xe5\x91\x98\xe5\x87\xbd\xe6\x95\xb0"<<file_name<<\x1b[01;31m\x1b[Kendl\x1b[m\x1b[K;\n'}
+[0.565045] (demo_cpp_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.565066] (demo_cpp_pkg) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[Kstd::endl\x1b[m\x1b[K\n'}
+[0.565088] (demo_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[0.565110] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:1\x1b[m\x1b[K:\n'}
+[0.565132] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:684:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.565154] (demo_cpp_pkg) StderrLine: {'line': b'  684 |     \x1b[01;36m\x1b[Kendl\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>& __os)\n'}
+[0.565197] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.565219] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.565242] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:19:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstdin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.565278] (demo_cpp_pkg) StderrLine: {'line': b'   19 |         auto save_with_lambda_fun=[](const \x1b[01;31m\x1b[Kstring\x1b[m\x1b[K &file_name)\n'}
+[0.565299] (demo_cpp_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.565324] (demo_cpp_pkg) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[Kstdin\x1b[m\x1b[K\n'}
+[0.565346] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:23:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.565368] (demo_cpp_pkg) StderrLine: {'line': b'   23 |     function\x1b[01;31m\x1b[K<\x1b[m\x1b[Kvoid(const string &)> save1-save_with_free_fun;\n'}
+[0.565388] (demo_cpp_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.565408] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:23:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.565431] (demo_cpp_pkg) StderrLine: {'line': b'   23 |     function<void(const string &)> save1-save_with_free_fun\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[0.565453] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.565475] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[0.565496] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:19:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.565519] (demo_cpp_pkg) StderrLine: {'line': b'   19 |         auto save_with_lambda_fun=[]\x1b[01;36m\x1b[K(\x1b[m\x1b[Kconst string &file_name)\n'}
+[0.565541] (demo_cpp_pkg) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.565563] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[0.565585] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:23:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.565607] (demo_cpp_pkg) StderrLine: {'line': b'   23 |     function<void(const string &)> save1-save_with_free_fun\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[0.565629] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.565678] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:23:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfunction\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.565705] (demo_cpp_pkg) StderrLine: {'line': b'   19 |         auto save_with_lambda_fun=[](\x1b[01;35m\x1b[Kconst string &file_name)\x1b[m\x1b[K\n'}
+[0.565729] (demo_cpp_pkg) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.565752] (demo_cpp_pkg) StderrLine: {'line': b'   20 | \x1b[01;35m\x1b[K    {\x1b[m\x1b[K\n'}
+[0.565775] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~\x1b[m\x1b[K\n'}
+[0.565823] (demo_cpp_pkg) StderrLine: {'line': b'   21 | \x1b[01;35m\x1b[K        cout<<"\xe8\xb0\x83\xe7\x94\xa8\xe4\xba\x86lambda\xe8\xa1\xa8\xe8\xbe\xbe\xe5\xbc\x8f"<<file_name<<endl;\x1b[m\x1b[K\n'}
+[0.565862] (demo_cpp_pkg) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.565884] (demo_cpp_pkg) StderrLine: {'line': b'   22 | \x1b[01;35m\x1b[K    }\x1b[m\x1b[K\n'}
+[0.565905] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~\x1b[m\x1b[K\n'}
+[0.565926] (demo_cpp_pkg) StderrLine: {'line': b'   23 | \x1b[01;35m\x1b[K    function\x1b[m\x1b[K<void(const string &)> save1-save_with_free_fun;\n'}
+[0.565947] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.565967] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.565987] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:24:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfunction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::function\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.566008] (demo_cpp_pkg) StderrLine: {'line': b'   24 |     \x1b[01;31m\x1b[Kfunction\x1b[m\x1b[K<void(const string &)> save2=save_with_lambda_fun;\n'}
+[0.566028] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.566047] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstd::function\x1b[m\x1b[K\n'}
+[0.566067] (demo_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[0.566086] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:2\x1b[m\x1b[K:\n'}
+[0.566106] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:111:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::function\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.566127] (demo_cpp_pkg) StderrLine: {'line': b'  111 |     class \x1b[01;36m\x1b[Kfunction\x1b[m\x1b[K;\n'}
+[0.566148] (demo_cpp_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.566167] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:24:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.566188] (demo_cpp_pkg) StderrLine: {'line': b'   24 |     function<\x1b[01;31m\x1b[Kvoid\x1b[m\x1b[K(const string &)> save2=save_with_lambda_fun;\n'}
+[0.566208] (demo_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.566227] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:25:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kvoid\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.566248] (demo_cpp_pkg) StderrLine: {'line': b'   25 |     function<\x1b[01;31m\x1b[Kvoid\x1b[m\x1b[K(const string &)> save3=bind(&FileSave::save_with_member_fun,&file_save,placeholders::_1);\n'}
+[0.566272] (demo_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.566345] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:26:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksave1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.566371] (demo_cpp_pkg) StderrLine: {'line': b'   26 |     \x1b[01;31m\x1b[Ksave1\x1b[m\x1b[K("file1.txt");\n'}
+[0.566393] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.566910] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:27:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksave2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.566940] (demo_cpp_pkg) StderrLine: {'line': b'   27 |     \x1b[01;31m\x1b[Ksave2\x1b[m\x1b[K("file2.txt");\n'}
+[0.566962] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.567415] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:28:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksave3\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.567441] (demo_cpp_pkg) StderrLine: {'line': b'   28 |     \x1b[01;31m\x1b[Ksave3\x1b[m\x1b[K("file3.txt");\n'}
+[0.567463] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.567484] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/learn_function.cpp:18:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kfile_save\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.567506] (demo_cpp_pkg) StderrLine: {'line': b'   18 |     FileSave \x1b[01;35m\x1b[Kfile_save\x1b[m\x1b[K;\n'}
+[0.567527] (demo_cpp_pkg) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.582857] (demo_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/learn_function.dir/build.make:76\xef\xbc\x9aCMakeFiles/learn_function.dir/src/learn_function.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.582954] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193\xef\xbc\x9aCMakeFiles/learn_function.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.582987] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.600007] (-) TimerEvent: {}
+[0.700284] (-) TimerEvent: {}
+[0.800610] (-) TimerEvent: {}
+[0.900913] (-) TimerEvent: {}
+[1.001181] (-) TimerEvent: {}
+[1.101474] (-) TimerEvent: {}
+[1.201766] (-) TimerEvent: {}
+[1.302086] (-) TimerEvent: {}
+[1.402374] (-) TimerEvent: {}
+[1.477249] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:7:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.477383] (demo_cpp_pkg) StderrLine: {'line': b'    7 |     string \x1b[01;31m\x1b[Kname\x1b[m\x1b[K\n'}
+[1.477412] (demo_cpp_pkg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.477451] (demo_cpp_pkg) StderrLine: {'line': b'      |                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.477671] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:20:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[1.477736] (demo_cpp_pkg) StderrLine: {'line': b'   20 | }\n'}
+[1.477765] (demo_cpp_pkg) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.477790] (demo_cpp_pkg) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.480214] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPersonNode::PersonNode(const string&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.480278] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:12:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PersonNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kname_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.480321] (demo_cpp_pkg) StderrLine: {'line': b'   12 |         this->\x1b[01;31m\x1b[Kname_\x1b[m\x1b[K=name;\n'}
+[1.480347] (demo_cpp_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.480369] (demo_cpp_pkg) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kname\x1b[m\x1b[K\n'}
+[1.480391] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:13:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass PersonNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kage_\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.480414] (demo_cpp_pkg) StderrLine: {'line': b'   13 |         this->\x1b[01;31m\x1b[Kage_\x1b[m\x1b[K=age;\n'}
+[1.480435] (demo_cpp_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.480456] (demo_cpp_pkg) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kage\x1b[m\x1b[K\n'}
+[1.483833] (demo_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.483891] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.483921] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.483944] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.483971] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.483993] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.484014] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.484034] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.484055] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.484077] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.484097] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.484117] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:2\x1b[m\x1b[K:\n'}
+[1.484136] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:14:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kname_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.484159] (demo_cpp_pkg) StderrLine: {'line': b'   14 |         RCLCPP_INFO(this->get_logger(),"\xe6\x88\x91\xe6\x98\xaf%s\xef\xbc\x8c\xe4\xbb\x8a\xe5\xb9\xb4%d\xe5\xb2\x81\xe4\xba\x86",\x1b[01;31m\x1b[Kname_\x1b[m\x1b[K.c_str(),age_)\n'}
+[1.484180] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.485890] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:14:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kage_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.485963] (demo_cpp_pkg) StderrLine: {'line': b'   14 |         RCLCPP_INFO(this->get_logger(),"\xe6\x88\x91\xe6\x98\xaf%s\xef\xbc\x8c\xe4\xbb\x8a\xe5\xb9\xb4%d\xe5\xb2\x81\xe4\xba\x86",name_.c_str(),\x1b[01;31m\x1b[Kage_\x1b[m\x1b[K)\n'}
+[1.485995] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.486019] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.486043] (demo_cpp_pkg) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.486064] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.488120] (demo_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[1.488182] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.488209] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.488236] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.488258] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.488279] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.488300] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.488325] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.488346] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.488368] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.488388] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.488409] (demo_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:2\x1b[m\x1b[K:\n'}
+[1.488429] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PersonNode::eat(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.488451] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yjfy/\xe6\xa1\x8c\xe9\x9d\xa2/workspace/demo_cpp_pkg/src/person_node.cpp:18:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kname_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kname\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.488472] (demo_cpp_pkg) StderrLine: {'line': b'   18 |         RCLCPP_INFO(this->get_logger(),"%s\xe6\xad\xa3\xe5\x9c\xa8\xe5\x90\x83%s",\x1b[01;31m\x1b[Kname_\x1b[m\x1b[K.c_str(),food_name.c_str());\n'}
+[1.488498] (demo_cpp_pkg) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.502504] (-) TimerEvent: {}
+[1.602745] (-) TimerEvent: {}
+[1.697249] (demo_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/person_node.dir/src/person_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.697381] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167\xef\xbc\x9aCMakeFiles/person_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.697906] (demo_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.699463] (demo_cpp_pkg) CommandEnded: {'returncode': 2}
+[1.702908] (-) TimerEvent: {}
+[1.707433] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 2}
+[1.717879] (-) EventReactorShutdown: {}

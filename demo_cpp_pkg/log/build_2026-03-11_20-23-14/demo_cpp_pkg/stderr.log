@@ -1,0 +1,7 @@
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:[m[K In constructor ‘[01m[KPersonNode::PersonNode(const string&, int)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_pkg/src/person_node.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   15 |     [01;31m[K}[m[K;
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/person_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

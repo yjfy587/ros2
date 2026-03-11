@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg
 # The main recursive "all" target.
 all: CMakeFiles/cpp_node.dir/all
 all: CMakeFiles/person_node.dir/all
+all: CMakeFiles/learn_function.dir/all
+all: CMakeFiles/learn_function1.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/demo_cpp_pkg_uninstall.dir/clean
 clean: CMakeFiles/cpp_node.dir/clean
 clean: CMakeFiles/person_node.dir/clean
+clean: CMakeFiles/learn_function.dir/clean
+clean: CMakeFiles/learn_function1.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -163,7 +167,7 @@ CMakeFiles/cpp_node.dir/clean:
 CMakeFiles/person_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target person_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target person_node"
 .PHONY : CMakeFiles/person_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +185,58 @@ person_node: CMakeFiles/person_node.dir/rule
 CMakeFiles/person_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_node.dir/build.make CMakeFiles/person_node.dir/clean
 .PHONY : CMakeFiles/person_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/learn_function.dir
+
+# All Build rule for target.
+CMakeFiles/learn_function.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target learn_function"
+.PHONY : CMakeFiles/learn_function.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learn_function.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learn_function.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/learn_function.dir/rule
+
+# Convenience name for target.
+learn_function: CMakeFiles/learn_function.dir/rule
+.PHONY : learn_function
+
+# clean rule for target.
+CMakeFiles/learn_function.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function.dir/build.make CMakeFiles/learn_function.dir/clean
+.PHONY : CMakeFiles/learn_function.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/learn_function1.dir
+
+# All Build rule for target.
+CMakeFiles/learn_function1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function1.dir/build.make CMakeFiles/learn_function1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function1.dir/build.make CMakeFiles/learn_function1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target learn_function1"
+.PHONY : CMakeFiles/learn_function1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learn_function1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/learn_function1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjfy/桌面/workspace/demo_cpp_pkg/build/demo_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/learn_function1.dir/rule
+
+# Convenience name for target.
+learn_function1: CMakeFiles/learn_function1.dir/rule
+.PHONY : learn_function1
+
+# clean rule for target.
+CMakeFiles/learn_function1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/learn_function1.dir/build.make CMakeFiles/learn_function1.dir/clean
+.PHONY : CMakeFiles/learn_function1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
