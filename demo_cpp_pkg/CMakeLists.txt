@@ -11,10 +11,13 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(Threads REQUIRED)
 add_executable(cpp_node src/cpp_node.cpp)
 add_executable(person_node src/person_node.cpp)
 add_executable(learn_function src/learn_function.cpp)
 add_executable(learn_function1 src/learn_function1.cpp)
+add_executable(learn_thread src/learn_thread.cpp)
+target_link_libraries(learn_thread Threads::Threads)
 ament_target_dependencies(cpp_node rclcpp)
 ament_target_dependencies(person_node rclcpp)
 include_directories(include)
@@ -24,6 +27,7 @@ install(TARGETS
   person_node
   learn_function
   learn_function1
+  learn_thread
   DESTINATION lib/${PROJECT_NAME})
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

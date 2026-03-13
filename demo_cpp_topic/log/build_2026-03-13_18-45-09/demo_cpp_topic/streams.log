@@ -1,0 +1,8 @@
+[0.006s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_topic/install/demo_cpp_topic
+[0.009s] [31mCMake Error at CMakeLists.txt:15:
+[0.009s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.009s]   "install{".
+[0.009s] 
+[0.010s] [0m
+[0.010s] -- Configuring incomplete, errors occurred!
+[0.010s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yjfy/桌面/workspace/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/yjfy/桌面/workspace/demo_cpp_topic/install/demo_cpp_topic
