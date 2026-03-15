@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_top
 
 # The main recursive "all" target.
 all: CMakeFiles/turtle_circle.dir/all
+all: CMakeFiles/turtle_control.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/demo_cpp_topic_uninstall.dir/clean
 clean: CMakeFiles/turtle_circle.dir/clean
+clean: CMakeFiles/turtle_control.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ turtle_circle: CMakeFiles/turtle_circle.dir/rule
 CMakeFiles/turtle_circle.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_circle.dir/build.make CMakeFiles/turtle_circle.dir/clean
 .PHONY : CMakeFiles/turtle_circle.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/turtle_control.dir
+
+# All Build rule for target.
+CMakeFiles/turtle_control.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles --progress-num=3,4 "Built target turtle_control"
+.PHONY : CMakeFiles/turtle_control.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/turtle_control.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/turtle_control.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles 0
+.PHONY : CMakeFiles/turtle_control.dir/rule
+
+# Convenience name for target.
+turtle_control: CMakeFiles/turtle_control.dir/rule
+.PHONY : turtle_control
+
+# clean rule for target.
+CMakeFiles/turtle_control.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/clean
+.PHONY : CMakeFiles/turtle_control.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

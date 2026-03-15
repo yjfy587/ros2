@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e070105f70465cedb0a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_cpp_topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_cpp_topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_cpp_topic_uninstall-9cde2a8fcb9d3832d0a4.json",
+					"name" : "demo_cpp_topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_circle-09f1685c3324813567b0.json",
+					"name" : "turtle_circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control-18fd22eabb6f2aa0788c.json",
+					"name" : "turtle_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-238be47c8813db739c46.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yjfy/\u684c\u9762/workspace/demo_cpp_topic/build/demo_cpp_topic",
+		"source" : "/home/yjfy/\u684c\u9762/workspace/demo_cpp_topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

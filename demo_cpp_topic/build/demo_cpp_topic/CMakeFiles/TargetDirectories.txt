@@ -1,6 +1,7 @@
 /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles/uninstall.dir
 /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles/demo_cpp_topic_uninstall.dir
 /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles/turtle_circle.dir
+/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles/turtle_control.dir
 /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles/test.dir
 /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles/edit_cache.dir
 /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[ 50%] Built target turtle_circle
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::on_pose_received(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kvelocity_publisher_[m[K’?
+   32 |         [01;31m[Kvelocity_publisher[m[K->publish(message);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kvelocity_publisher_[m[K
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/turtle_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

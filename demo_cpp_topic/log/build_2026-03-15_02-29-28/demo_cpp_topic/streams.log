@@ -1,0 +1,71 @@
+[0.006s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic -- -j24 -l24
+[0.022s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.093s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.106s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.107s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.110s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.136s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.137s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.190s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.228s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.235s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.257s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.300s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.300s] -- Configured cppcheck include dirs: 
+[0.300s] -- Configured cppcheck exclude dirs and/or files: 
+[0.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.302s] -- Added test 'lint_cmake' to check CMake code style
+[0.303s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.307s] -- Added test 'uncrustify' to check C / C++ code style
+[0.307s] -- Configured uncrustify additional arguments: 
+[0.308s] -- Added test 'xmllint' to check XML markup files
+[0.309s] -- Configuring done
+[0.317s] -- Generating done
+[0.320s] -- Build files have been written to: /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic
+[0.340s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.349s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[0.354s] [ 75%] Built target turtle_circle
+[1.500s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry[m[K’ was not declared in this scope
+[1.500s]    36 |     rclcpp::Publisher<[01;31m[Kgeometry[m[K::msg::msg::Twist>::SharedPtr velocity_publisher;
+[1.500s]       |                       [01;31m[K^~~~~~~~[m[K
+[1.500s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.500s]    36 |     rclcpp::Publisher<geometry::msg::msg::Twist[01;31m[K>[m[K::SharedPtr velocity_publisher;
+[1.500s]       |                                                [01;31m[K^[m[K
+[1.500s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.501s]    36 |     rclcpp::Publisher<geometry::msg::msg::Twist>::[01;31m[KSharedPtr[m[K velocity_publisher;
+[1.501s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[1.501s]       |                                                            [32m[K;[m[K
+[1.502s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher[m[K’ does not name a type
+[1.502s]    36 |     rclcpp::Publisher<geometry::msg::msg::Twist>::SharedPtr [01;31m[Kvelocity_publisher[m[K;
+[1.502s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.506s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtleController::TurtleController()[m[K’:
+[1.506s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:8:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[1.506s]     8 |         [01;31m[Kvelocity_publisher_[m[K=this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10);
+[1.506s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.506s]       |         [32m[Kcount_publishers[m[K
+[1.512s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[1.512s]     9 |         [01;31m[Kpose_subscriber[m[K=this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose",10,std::bind(&TurtleController::on_pose_received,this,std::placeholders::_1));
+[1.512s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.512s]       |         [32m[Kcount_subscribers[m[K
+[1.519s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::on_pose_received(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.519s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_y[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_y_[m[K’?
+[1.519s]    19 |         double angle=std::atan2([01;31m[Ktarget_y[m[K-current_y,target_x-current_x)-pose->theta;
+[1.519s]       |                                 [01;31m[K^~~~~~~~[m[K
+[1.519s]       |                                 [32m[Ktarget_y_[m[K
+[1.521s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:19:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_x[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_x_[m[K’?
+[1.521s]    19 |         double angle=std::atan2(target_y-current_y,[01;31m[Ktarget_x[m[K-current_x)-pose->theta;
+[1.521s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[1.521s]       |                                                    [32m[Ktarget_x_[m[K
+[1.524s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:29:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessaage[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage[m[K’?
+[1.524s]    29 |         if([01;31m[Kmessaage[m[K.linear.x>max_speed_){
+[1.524s]       |            [01;31m[K^~~~~~~~[m[K
+[1.524s]       |            [32m[Kmessage[m[K
+[1.528s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher[m[K’ was not declared in this scope
+[1.528s]    32 |         [01;31m[Kvelocity_publisher[m[K->publish(message);
+[1.528s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.565s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[2.565s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/turtle_control.dir/all] 错误 2
+[2.565s] gmake: *** [Makefile:146：all] 错误 2
+[2.567s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic -- -j24 -l24

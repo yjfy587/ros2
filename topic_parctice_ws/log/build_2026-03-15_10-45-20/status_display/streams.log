@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/yjfy/topic_parctice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/yjfy/topic_parctice_ws/install/status_interfaces:/home/yjfy/topic_parctice_ws/install/status_display:/home/yjfy/topic_parctice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/topic_parctice_ws/build/status_display -- -j24 -l24
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[4.218s] [100%] [32m[1mLinking CXX executable sys_status_display[0m
+[4.627s] [100%] Built target sys_status_display
+[4.634s] Invoked command in '/home/yjfy/topic_parctice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/yjfy/topic_parctice_ws/install/status_interfaces:/home/yjfy/topic_parctice_ws/install/status_display:/home/yjfy/topic_parctice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/topic_parctice_ws/build/status_display -- -j24 -l24
+[4.635s] Invoking command in '/home/yjfy/topic_parctice_ws/build/status_display': CMAKE_PREFIX_PATH=/home/yjfy/topic_parctice_ws/install/status_interfaces:/home/yjfy/topic_parctice_ws/install/status_display:/home/yjfy/topic_parctice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/yjfy/topic_parctice_ws/build/status_display
+[4.639s] -- Install configuration: ""
+[4.639s] -- Installing: /home/yjfy/topic_parctice_ws/install/status_display/lib/status_display/sys_status_display
+[4.640s] -- Set runtime path of "/home/yjfy/topic_parctice_ws/install/status_display/lib/status_display/sys_status_display" to ""
+[4.640s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[4.640s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/environment/path.sh
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/environment/path.dsv
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/local_setup.bash
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/local_setup.sh
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/local_setup.zsh
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/local_setup.dsv
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/package.dsv
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/ament_index/resource_index/packages/status_display
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[4.641s] -- Up-to-date: /home/yjfy/topic_parctice_ws/install/status_display/share/status_display/package.xml
+[4.642s] Invoked command in '/home/yjfy/topic_parctice_ws/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/yjfy/topic_parctice_ws/install/status_interfaces:/home/yjfy/topic_parctice_ws/install/status_display:/home/yjfy/topic_parctice_ws/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/yjfy/topic_parctice_ws/build/status_display

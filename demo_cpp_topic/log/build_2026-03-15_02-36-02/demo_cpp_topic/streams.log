@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic -- -j24 -l24
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.059s] [ 50%] Built target turtle_circle
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[1.227s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+[1.228s]    36 |     rclcpp::Publisher<[01;31m[Kgeometry_msg[m[K::msg::Twist>::SharedPtr velocity_publisher_;
+[1.228s]       |                       [01;31m[K^~~~~~~~~~~~[m[K
+[1.228s]       |                       [32m[Kgeometry_msgs[m[K
+[1.228s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.228s]    36 |     rclcpp::Publisher<geometry_msg::msg::Twist[01;31m[K>[m[K::SharedPtr velocity_publisher_;
+[1.228s]       |                                               [01;31m[K^[m[K
+[1.228s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.228s]    36 |     rclcpp::Publisher<geometry_msg::msg::Twist>::[01;31m[KSharedPtr[m[K velocity_publisher_;
+[1.228s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[1.228s]       |                                                           [32m[K;[m[K
+[1.229s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:36:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ does not name a type
+[1.229s]    36 |     rclcpp::Publisher<geometry_msg::msg::Twist>::SharedPtr [01;31m[Kvelocity_publisher_[m[K;
+[1.229s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.234s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtleController::TurtleController()[m[K’:
+[1.234s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:8:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[1.234s]     8 |         [01;31m[Kvelocity_publisher_[m[K=this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel",10);
+[1.234s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.234s]       |         [32m[Kcount_publishers[m[K
+[1.246s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:[m[K In member function ‘[01m[Kvoid TurtleController::on_pose_received(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.246s] [01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher[m[K’ was not declared in this scope
+[1.246s]    32 |         [01;31m[Kvelocity_publisher[m[K->publish(message);
+[1.246s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.425s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[2.426s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/turtle_control.dir/all] 错误 2
+[2.426s] gmake: *** [Makefile:146：all] 错误 2
+[2.427s] Invoked command in '/home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/桌面/workspace/demo_cpp_topic/build/demo_cpp_topic -- -j24 -l24

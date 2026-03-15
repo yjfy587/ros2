@@ -1,0 +1,5 @@
+[31mCMake Error at cmake_install.cmake:60 (file):
+  file cannot create directory: /lib/status_display.  Maybe need
+  administrative privileges.
+
+[0m

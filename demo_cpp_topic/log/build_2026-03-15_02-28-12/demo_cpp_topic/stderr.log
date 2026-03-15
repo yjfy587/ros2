@@ -1,0 +1,8 @@
+[01m[K/home/yjfy/桌面/workspace/demo_cpp_topic/src/turtle_control.cpp:1:9:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: 没有那个文件或目录
+    1 | #include[01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/turtle_control.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
