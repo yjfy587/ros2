@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[ 75%] Built target patrol_client
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   48 |     [01;31m[Kthis[m[K->declare_parameter("k",1.0);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:49:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   49 |     [01;31m[Kthis[m[K->declare_parameter("max_speed",1.0);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:50:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   50 |     [01;31m[Kthis[m[K->get_parameter("max_speed",max_speed_);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:51:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   51 |     [01;31m[Kthis[m[K->get_parameter("k",k_);
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

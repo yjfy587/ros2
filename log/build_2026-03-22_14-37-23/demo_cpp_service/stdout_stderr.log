@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol_client[0m
+[ 50%] Built target patrol_client
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:48:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   48 |     [01;31m[Kthis[m[K->declare_parameter("k",1.0);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:49:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   49 |     [01;31m[Kthis[m[K->declare_parameter("max_speed",1.0);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:50:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   50 |     [01;31m[Kthis[m[K->get_parameter("max_speed",max_speed_);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:51:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   51 |     [01;31m[Kthis[m[K->get_parameter("k",k_);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:[m[K In lambda function:
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_x[m[K’ was not declared in this scope
+   13 |                 [01;31m[Ktarget_x[m[K=request->target_x;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:14:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_y[m[K’ was not declared in this scope
+   14 |                 [01;31m[Ktarget_y[m[K=request->target_y;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:[m[K In member function ‘[01m[Kvoid Turtlecontroller::on_pose_received_(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:28:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_x[m[K’ was not declared in this scope
+   28 |         double distance=std::sqrt(([01;31m[Ktarget_x[m[K-current_x)*(target_x-current_x)+(target_y-current_y)*(target_y-current_y));
+      |                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:28:78:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_y[m[K’ was not declared in this scope
+   28 |         double distance=std::sqrt((target_x-current_x)*(target_x-current_x)+([01;31m[Ktarget_y[m[K-current_y)*(target_y-current_y));
+      |                                                                              [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

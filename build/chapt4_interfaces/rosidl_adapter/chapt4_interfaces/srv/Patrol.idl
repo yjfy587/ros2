@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chapt4_interfaces/srv/Patrol.srv
+// generated code does not contain a copyright notice
+
+
+module chapt4_interfaces {
+  module srv {
+    struct Patrol_Request {
+      float target_x;
+
+      float target_y;
+    };
+    module Patrol_Response_Constants {
+      const int8 SUCCESS = 1;
+      const int8 FAIL = 0;
+    };
+    struct Patrol_Response {
+      int8 result;
+    };
+  };
+};

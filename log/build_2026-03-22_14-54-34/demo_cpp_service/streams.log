@@ -1,0 +1,17 @@
+[0.006s] Invoking command in '/home/yjfy/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjfy/chapt4_ws/build/demo_cpp_service -- -j24 -l24
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.058s] [ 50%] Built target patrol_client
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[1.252s] [01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[KOnSetParameterCallbackHandle[m[K’ does not name a type; did you mean ‘[01m[KOnSetParametersCallbackHandle[m[K’?
+[1.252s]    68 |     [01;31m[KOnSetParameterCallbackHandle[m[K::SharedPtr parameters_callback_handle_;
+[1.252s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.252s]       |     [32m[KOnSetParametersCallbackHandle[m[K
+[1.265s] [01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtlecontroller::Turtlecontroller()[m[K’:
+[1.265s] [01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameters_callback_handle_[m[K’ was not declared in this scope; did you mean ‘[01m[KOnSetParametersCallbackHandle[m[K’?
+[1.265s]    27 |         [01;31m[Kparameters_callback_handle_[m[K=this->add_on_set_parameters_callback([&](const std::vector<rclcpp::Parameter> &params){
+[1.265s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.265s]       |         [32m[KOnSetParametersCallbackHandle[m[K
+[2.545s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[2.545s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_control.dir/all] 错误 2
+[2.545s] gmake: *** [Makefile:146：all] 错误 2
+[2.547s] Invoked command in '/home/yjfy/chapt4_ws/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yjfy/chapt4_ws/build/demo_cpp_service -- -j24 -l24

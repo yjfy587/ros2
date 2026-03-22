@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol_client[0m
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:77:61:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl[m[K’ has not been declared
+   77 |         std::shared_ptr<SetP::Response> call_set_parameters([01;31m[Krcl[m[K::interfaces::msg::Parameter &parameter){
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:77:93:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   77 |         std::shared_ptr<SetP::Response> call_set_parameters(rcl::interfaces::msg::Parameter [01;31m[K&[m[Kparameter){
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In member function ‘[01m[Kvoid patrolClient::update_server_param_k(double)[m[K’:
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:30:48:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krcl_interfaces::msg::Parameter_<std::allocator<void> >[m[K’ to ‘[01m[Kint[m[K’
+   30 |             auto response= call_set_parameters([01;31m[Kparam[m[K);
+      |                                                [01;31m[K^~~~~[m[K
+      |                                                [01;31m[K|[m[K
+      |                                                [01;31m[Krcl_interfaces::msg::Parameter_<std::allocator<void> >[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:77:83:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_ptr<rcl_interfaces::srv::SetParameters_Response_<std::allocator<void> > > patrolClient::call_set_parameters(int)[m[K’
+   77 |         std::shared_ptr<SetP::Response> call_set_parameters([01;36m[Krcl::interfaces::msg::Parameter[m[K &parameter){
+      |                                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In member function ‘[01m[Kstd::shared_ptr<rcl_interfaces::srv::SetParameters_Response_<std::allocator<void> > > patrolClient::call_set_parameters(int)[m[K’:
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:83:21:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+   83 |                     [01;31m[Kreturn[m[K nullptr;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:87:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   87 |             [01;31m[K}[m[K
+      |             [01;31m[K^[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:89:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameter[m[K’ was not declared in this scope; did you mean ‘[01m[KParameter[m[K’?
+   89 |             request->parameters.push_back([01;31m[Kparameter[m[K);
+      |                                           [01;31m[K^~~~~~~~~[m[K
+      |                                           [32m[KParameter[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:77:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KParameter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   77 |         std::shared_ptr<SetP::Response> call_set_parameters([01;35m[Krcl::interfaces::msg::Parameter[m[K &parameter){
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/patrol_client.dir/build.make:76：CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/patrol_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

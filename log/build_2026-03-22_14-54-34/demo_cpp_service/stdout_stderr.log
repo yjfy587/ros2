@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[ 50%] Built target patrol_client
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:68:5:[m[K [01;31m[Kerror: [m[K‘[01m[KOnSetParameterCallbackHandle[m[K’ does not name a type; did you mean ‘[01m[KOnSetParametersCallbackHandle[m[K’?
+   68 |     [01;31m[KOnSetParameterCallbackHandle[m[K::SharedPtr parameters_callback_handle_;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[KOnSetParametersCallbackHandle[m[K
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:[m[K In constructor ‘[01m[KTurtlecontroller::Turtlecontroller()[m[K’:
+[01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameters_callback_handle_[m[K’ was not declared in this scope; did you mean ‘[01m[KOnSetParametersCallbackHandle[m[K’?
+   27 |         [01;31m[Kparameters_callback_handle_[m[K=this->add_on_set_parameters_callback([&](const std::vector<rclcpp::Parameter> &params){
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KOnSetParametersCallbackHandle[m[K
+gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_control.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/yjfy/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:/home/yjfy/chapt4_ws/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/chapt4_ws/build/demo_cpp_service -- -j24 -l24
+Invoked command in '/home/yjfy/chapt4_ws/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:/home/yjfy/chapt4_ws/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/chapt4_ws/build/demo_cpp_service -- -j24 -l24

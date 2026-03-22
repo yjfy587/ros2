@@ -1,0 +1,17 @@
+[0.006s] Invoking command in '/home/yjfy/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:/home/yjfy/chapt4_ws/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/chapt4_ws/build/demo_cpp_service -- -j24 -l24
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.062s] [ 25%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[0.070s] [ 75%] Built target turtle_control
+[1.161s] [01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_prt[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type; did you mean ‘[01m[Kshared_ptr[m[K’?
+[1.161s]    20 |         std::[01;31m[Kshared_prt[m[K<SetP::Response> call_set_parameters(rcl::interfaces::msg::Parameter &parameter){
+[1.161s]       |              [01;31m[K^~~~~~~~~~[m[K
+[1.161s]       |              [32m[Kshared_ptr[m[K
+[1.196s] [01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In member function ‘[01m[Kvoid patrolClient::update_server_param_k(double)[m[K’:
+[1.196s] [01m[K/home/yjfy/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:47:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcall_set_parameters[m[K’ was not declared in this scope; did you mean ‘[01m[Kset_parameters[m[K’?
+[1.196s]    47 |             auto response=[01;31m[Kcall_set_parameters[m[K(param);
+[1.196s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.196s]       |                           [32m[Kset_parameters[m[K
+[1.531s] gmake[2]: *** [CMakeFiles/patrol_client.dir/build.make:76：CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o] 错误 1
+[1.531s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/patrol_client.dir/all] 错误 2
+[1.532s] gmake: *** [Makefile:146：all] 错误 2
+[1.534s] Invoked command in '/home/yjfy/chapt4_ws/build/demo_cpp_service' returned '2': CMAKE_PREFIX_PATH=/home/yjfy/chapt4_ws/install/chapt4_interfaces:/home/yjfy/chapt4_ws/install/demo_cpp_service:/opt/ros/humble /usr/bin/cmake --build /home/yjfy/chapt4_ws/build/demo_cpp_service -- -j24 -l24
